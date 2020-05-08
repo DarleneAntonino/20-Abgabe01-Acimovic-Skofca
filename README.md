@@ -3,20 +3,17 @@
 ## Extension of the exercise Drinks template with subclasses ###
 
 ...
-In the project we have derived a subclass **AppleJuice.java**  from the class *Drinks/SimpleDrink*. 
-We have imported the following collections:
+The goal of this exercise is to train how to implement Unit Tests. Therefore we have to extend the given template *Drinks* and derive a subclass from the class *Drinks/SimpleDrink*. We will name it **AppleJuice.java**. 
+We will use the following collections:
 * java.util.ArrayList;
 * java.util.List;
 
+We will create Unit Tests for the functionality of *SimpleDrink* 
+and try to get a 100% successful test covering. 
 
-Further we have implemented an exception for the AppleJuice.java class. 
+To all methods we will add JavaDoc comments. 
 
-We created Unit Tests for the functionality of *SimpleDrink* 
-and managed to get a 100% test covering. 
-
-To all methods we have added JavaDoc comments. 
-
-Of interest is the implemented *exception* which in case of volume smaller or equal zero will be thrown: 
+Further we will implement an *exception* for the AppleJuice.java class which in case of volume smaller or equal zero will be thrown: 
 
 ```java
  private void checkVolume(String name, double volume) {
@@ -26,4 +23,5 @@ Of interest is the implemented *exception* which in case of volume smaller or eq
     }
 ```
 
+Also our task is to experiment with the this ReadMe file and with the Markdown elements (for example we added a gif and used a variety of formatting examples).
 ![](https://media.giphy.com/media/xTiQytOEqr2U33lYkg/giphy.gif)
