@@ -11,7 +11,13 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 
 public class AppleJuiceTest {
+
+    /**
+     * tests for the exception using water and concetrate seperatly
+     */
+
     @Test
+    @DisplayName("Testing exception with water")
     void testFailsOnNoWater() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> {
             new AppleJuice(0, 1);
@@ -20,12 +26,17 @@ public class AppleJuiceTest {
     }
 
     @Test
+    @DisplayName("Testing exception with concentrate")
     void testFailsOnNoConcetrate() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> {
             new AppleJuice(1, 0);
         });
 
     }
+
+    /**
+     * tests for the constructor for apple juice mix
+     */
 
     @Test
     @DisplayName("Testing constructor appleJuice")
