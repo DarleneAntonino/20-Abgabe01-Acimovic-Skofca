@@ -53,7 +53,38 @@
       <timezone>Europe/Vienna</timezone>
       <properties/>
     </developer>
+    <developer>
+    <id>mateaacimovic</id>
+    <name>Matea Acimovic</name>
+    <email>matea@lawif.io</email>
+    <url>n.a.</url>
+    <organization> FH JOANNEUM GmbH </organization>
+    <organizationUrl> https://www.fh-joanneum.at/iit </organizationUrl>
+    <roles>
+      <role>Student</role>
+    </roles>
+    <timezone>Europe/Vienna</timezone>
+    <properties>
+      <picUrl>https://itell.solutions/wp-content/uploads/2018/10/xfl__8431.jpg.pagespeed.ic.yvMNGD4FGv.webp</picUrl>
+    </properties>
+    </developer>
+    <developer>
+    <id>inesmariaskofca</id>
+    <name>Ines Maria Skofca</name>
+    <email>ines.skofca@edu.fh-joanneum.at</email>
+    <url>n.a.</url>
+    <organization> FH JOANNEUM GmbH </organization>
+    <organizationUrl> n.a.</organizationUrl>
+    <roles>
+      <role>Student</role>
+    </roles>
+    <timezone>Europe/Vienna</timezone>
+    <properties>
+      <picUrl>https://www.linkedin.com/in/ines-maria-skofca-b0a695123/?originalSubdomain=at</picUrl>
+    </properties>
+    </developer>
   </developers>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
