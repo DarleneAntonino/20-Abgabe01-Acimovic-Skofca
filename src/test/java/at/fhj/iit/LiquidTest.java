@@ -6,7 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
+/**
+ * Class represents a liquid test which develops testcases for
+ * the liquid class
+ */
 
 @DisplayName("Testing Liquid implementation")
 public class LiquidTest {
