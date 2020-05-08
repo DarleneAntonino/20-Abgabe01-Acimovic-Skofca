@@ -8,6 +8,7 @@ import java.util.List;
  * handle testcases
  */
 public class AppleJuice extends Drink {
+
     private List<Liquid> liquids;
 
     /**
@@ -65,14 +66,16 @@ public class AppleJuice extends Drink {
 
     @Override
     public double getAlcoholPercent() {
-        return 0;
+        return 0.0;
     }
+
 
     /**
      * Gives information if drink is alcoholic or not
      *
      * @return true when alcoholic liquids are present, otherwise false
      */
+
 
     @Override
     public boolean isAlcoholic() {
