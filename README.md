@@ -24,4 +24,6 @@ Further we will implement an *exception* for the AppleJuice.java class which in 
 ```
 
 Also our task is to experiment with the this ReadMe file and with the Markdown elements (for example we added a gif and used a variety of formatting examples).
+
+
 ![](https://media.giphy.com/media/xTiQytOEqr2U33lYkg/giphy.gif)
